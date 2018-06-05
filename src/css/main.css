@@ -1,0 +1,143 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar{
+    background: transparent;
+    z-index: 1;
+}
+.navbar a{
+font-weight: bold;
+}
+/*  */
+.jumbotron{
+
+    /* position: absolute;
+    top:0;   */
+    background: #ffffff url('../assets/images/bg.svg') center;
+    background-size: cover;
+    min-height: 46rem;
+    height: auto;
+    width: 100%;
+    padding-top: 1rem;
+    border-radius: 0px;
+}
+.btn-primary {
+    margin-top: 10px;
+    height: 55px;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    background-color: #00b6ce;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    min-width: 270px;
+    }
+    .btn-primary:hover{
+        background-color: rgb(255, 25, 133);
+    }
+
+.btn-secondary {
+    margin-top: 10px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: #222222;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    min-width: 270px;
+    }
+
+    .btn-secondary:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .fixed-top.scrolled {
+    background-color:#FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+    transition: background-color 200ms linear;
+    
+  }
+  .fixed-top.scrolled a{
+    transition: background-color 200ms linear;
+  }
+
+  .navbar-toggler{
+      border:0;
+  }
+  .navbar-toggler:focus{
+    border:0;
+    outline: none !important;
+
+}
+.parallax-window{
+    border-radius: 20px;
+}
+.parallax-window h1{
+    line-height: 400px;
+    margin:auto;
+}
+
+
+/* FOOTER */
+
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
+/* Sticky footer position and size
+-------------------------------------------------- */
+.footer {
+    font-family: 'Alegreya Sans', sans-serif;
+
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 350px;
+}
+
+/* Taller footer on small screens */
+@media (max-width: 34em) {
+    .footer {
+      height: 500px;
+    }
+}
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    border-radius: 50px;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    padding: 0.7em 1em;
+}
